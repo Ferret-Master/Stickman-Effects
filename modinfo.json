@@ -2,7 +2,7 @@
     "context": "client",
     "identifier": "com.pa.ferretmaster.stickmanEffects",
     "display_name": "Stickman Commander Effects",
-    "description": "Adds fancy effects to the Stickman commander, made as a reward for Zamok winning the plat tourney cup",
+    "description": "Adds fancy effects to the Stickman commander, made as a reward for Zamok coming top 3 in the plat tourney cup",
     "author": "Ferretmaster",
     "version": "1.0",
     "build": "120799",
