@@ -1,0 +1,213 @@
+{
+  "display_name": "Stickman9000 Commander",
+  "description": "Raptor Stickman9000 Commander",
+  "attachable": {
+    "offsets": {
+      "root": [
+        0,
+        0,
+        0
+      ],
+      "head": [
+        0,
+        -0.5,
+        10.6
+      ]
+    }
+  },
+  "base_spec": "/pa/units/commanders/raptor_base/raptor_base.json",
+  "catalog_object_name": "RaptorStickman9000",
+  "client": {
+    "ui": {
+      "image": "/ui/main/shared/img/commanders/img_raptor_stickman9000.png",
+      "thumb_image": "/ui/main/shared/img/commanders/thumbs/img_raptor_stickman9000_thumb.png",
+      "profile_image": "/ui/main/shared/img/commanders/profiles/profile_raptor_stickman9000.png"
+    }
+  },
+  "headlights": [
+    {
+      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+      "offset": [
+        0,
+        -2.149,
+        1.488
+      ],
+      "orientation": [
+        0.0,
+        45.0,
+        0.0
+      ],
+      "near_width": 5.0,
+      "near_height": 5.0,
+      "near_distance": 3.0,
+      "far_distance": 30.0,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 6.0,
+      "bone": "bone_spine",
+      "shadow_resolution": 128
+    }
+  ],
+  "kickstarter_backer": "Kyle Gretchev",
+  "lamps": [
+    {
+      "offset": [
+        0,
+        -4.941,
+        1.952
+      ],
+      "radius": 2.0,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 5.0,
+      "bone": "bone_spine"
+    },
+    {
+      "offset": [
+        0.4,
+        3.46,
+        -1.1
+      ],
+      "radius": 4.0,
+      "color": [
+        0.4,
+        1.0,
+        0.01
+      ],
+      "intensity": 2.0,
+      "bone": "bone_leftShoulder"
+    }
+  ],
+  "model": {
+    "filename": "/pa/units/commanders/raptor_stickman9000/raptor_stickman9000.papa"
+  },
+  "fx_offsets": [
+    {
+      "type": "build",
+      "filename": "/pa/effects/specs/fab_spray.pfx",
+      "bone": "socket_leftMuzzle"
+    },
+   
+    {
+        "type": "idle",
+        "filename": "/pa/units/commanders/raptor_stickman9000/radar.pfx",
+        "bone": "bone_spine",
+        "offset": [
+            -0,
+            -0.00,
+            -0.0
+        ],
+        "orientation": [
+            0,
+            0,
+            0
+        ]
+    },
+    {
+      "type": "idle",
+      "filename": "/pa/units/commanders/raptor_stickman9000/spine.pfx",
+      "bone": "bone_spine",
+      "offset": [
+          -0,
+          -0.00,
+          -0.0
+      ],
+      "orientation": [
+          0,
+          0,
+          0
+      ]
+  },
+   
+    {
+        "type": "idle",
+        "filename": "/pa/units/commanders/raptor_stickman9000/death_jets.pfx",
+        "bone": "bone_spine",
+        "offset": [
+          1.4,4.4,1.7
+        ],
+        "orientation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "idle",
+        "filename": "/pa/units/commanders/raptor_stickman9000/death_jets.pfx",
+        "bone": "bone_spine",
+        "offset": [
+          -1.4,4.4,1.7
+        ],
+        "orientation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "idle",
+        "filename": "/pa/units/commanders/raptor_stickman9000/arm.pfx",
+        "bone": "socket_rightMuzzle",
+        "offset": [
+          0,0,0
+        ],
+        "orientation": [
+          90,
+          0,
+          0
+        ]
+      },
+      {
+        "type": "idle",
+        "filename": "/pa/units/commanders/raptor_stickman9000/arm.pfx",
+        "bone": "socket_leftMuzzle",
+        "offset": [
+          0,0,0
+        ],
+        "orientation": [
+          90,
+          0,
+          0
+        ]
+      }
+],
+  "tools": [
+    {
+      "spec_id": "/pa/tools/commander_build_arm/commander_build_arm.json",
+      "aim_bone": "bone_turret"
+    },
+    {
+      "spec_id": "/pa/units/commanders/base_commander/base_commander_tool_missile_weapon.json",
+      "aim_bone": "bone_turret",
+      "muzzle_bone": "socket_rightMuzzle",
+      "primary_weapon": true
+    },
+    {
+      "spec_id": "/pa/tools/uber_cannon/uber_cannon.json",
+      "aim_bone": "bone_turret",
+      "muzzle_bone": "socket_rightMuzzle",
+      "secondary_weapon": true
+    },
+    {
+      "spec_id": "/pa/units/commanders/base_commander/base_commander_tool_aa_weapon.json",
+      "aim_bone": "bone_turret",
+      "muzzle_bone": "socket_rightMuzzle",
+      "primary_weapon": false,
+      "show_range": false
+    },
+    {
+      "spec_id": "/pa/units/commanders/base_commander/base_commander_tool_torpedo_weapon.json",
+      "aim_bone": "bone_turret",
+      "muzzle_bone": "socket_rightMuzzle",
+      "primary_weapon": false,
+      "show_range": false
+    }
+  ]
+}

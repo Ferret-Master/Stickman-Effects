@@ -1,0 +1,18 @@
+{
+    "context": "client",
+    "identifier": "com.pa.ferretmaster.stickmanEffects",
+    "display_name": "Stickman Commander Effects",
+    "description": "Adds fancy effects to the Stickman commander, made as a reward for Zamok winning the plat tourney cup",
+    "author": "Ferretmaster",
+    "version": "1.0",
+    "build": "120799",
+    "date": "2024-07-04",
+    "signature": "not yet implemented",
+    "forum": "",
+    "icon": "https://raw.githubusercontent.com/Ferret-Master/Stickman-Effects/main/stickman_icon.PNG",
+    "priority": 100,
+    "category": [
+        "titans","classic", "in-game","ui","fx"
+    ]
+ 
+}
